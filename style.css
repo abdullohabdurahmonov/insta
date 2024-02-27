@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+}
+
+.insta {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instaImage {
+  max-width: 174px;
+  margin-bottom: 27px;
+}
+
+#instaForm {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+}
+#instaForm input {
+  width: 270px;
+  padding: 9px 7px;
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.308);
+  border-radius: 2px;
+  background-color: rgba(219, 219, 219, 0.139);
+  margin-bottom: 6px;
+}
+#instaForm input::placeholder {
+  font-size: 12px;
+}
+#instaForm input:focus {
+  border: 1px solid rgba(128, 128, 128, 0.705);
+}
+
+.btn-primary {
+  padding: 7px 16px;
+  margin-top: 8px;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 148, 246, 0.785);
+  border: none;
+  border-radius: 7px;
+  font-weight: 600;
+}
+.btn-primary:active {
+  background-color: rgba(58, 174, 251, 0.785);
+}
+
+.hidden {
+  position: absolute;
+  right: 9px;
+  top: 137px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.705);
+  font-weight: 600;
+  font-size: 13px;
+  display: none;
+}
+
+.info {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.and {
+  font-family: "Poppins", sans-serif;
+  color: rgb(115, 115, 115);
+  font-size: 15px;
+}
+
+.line {
+  margin-top: 10px;
+  width: 100px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
+.face {
+  color: #385185;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.face img {
+  margin-right: 6px;
+}
+
+.now {
+  margin-top: 29px;
+  text-decoration: none;
+  color: rgb(0, 55, 107);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.ok {
+  font-size: 12px;
+  margin: 15px 0;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  gap: 2px;
+  margin-top: 25px;
+}
+
+.linkReg {
+  text-decoration: none;
+  color: rgb(0, 149, 246);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.footer_wrapper {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.footer_wrapper a {
+  font-family: "Poppins", sans-serif;
+  color: rgb(115, 115, 115);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+}
